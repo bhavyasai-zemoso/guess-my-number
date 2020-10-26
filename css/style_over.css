@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+body{
+     background-image: url("https://www.insidehook.com/wp-content/uploads/2017/05/groot1-1.jpg?fit=855%2C450"); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     backdrop-filter: brightness(70%);
+}
+p {
+    color:white;
+    margin: 0;
+    font-size: 3em;
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.container {
+  margin: 0 auto;
+  width: 760px;
+  height: 948px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container > h1 {
+  font-family: 'VT323';
+  font-size: 700%;
+  position: absolute;
+  top: 8%;
+  right: 22%;
+  z-index: 10;
+}
+
+#_gover{
+	color:white
+}
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+.play_again {
+	    position: absolute;
+  	    top: 50%; 
+            left: 43%; 
+}
+@media only screen and (max-width: 497px) {
+  body { 
+     background-image: url('https://images.pexels.com/photos/1156684/pexels-photo-1156684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); 
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+
+.btn {
+  font-size: 1rem;
+ }
+.container {
+  width: 500px;
+}
+.container > h1 {
+  font-size: 500%;
+}
+p {
+    
+    font-size: 1em;
+}
+}
